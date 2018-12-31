@@ -1,4 +1,5 @@
 # FasterRunner
+# 本工程是基于https://github.com/yinquanwang/FasterRunner仓库，做一些修改并添加一些注释，方便后期修改
 
 [![LICENSE](https://img.shields.io/github/license/yinquanwang/FasterRunner.svg)](https://github.com/yinquanwang/FasterRunner/blob/master/LICENSE) [![travis-ci](https://travis-ci.org/yinquanwang/FasterRunner.svg?branch=master)](https://travis-ci.org/yinquanwang/FasterRunner) ![pyversions](https://img.shields.io/pypi/pyversions/Django.svg)
 
