@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'e$od9f28jce8q47u3raik$(e%$@lff6r89ux+=f!e1a$e42+#7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'fastrunner.apps.FastrunnerConfig',
     'fastuser',
+    'fasttest',
     'rest_framework',
     'corsheaders'
 ]
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'FasterRunner.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysql',  # 新建数据库名
+        'NAME': 'duanling',  # 新建数据库名
         'USER': 'root',  # 数据库登录名
         'PASSWORD': '123456',  # 数据库登录密码
         'HOST': 'localhost',  # 数据库所在服务器ip地址

@@ -14,10 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-from django.urls import path, include
+from django.urls import path
+from fasttest import views
 
 urlpatterns = [
-    path('api/user/', include('fastuser.urls')),
-    path('api/fastrunner/', include('fastrunner.urls')),
-    path('api/fasttest/', include('fasttest.urls'))
+    path('test1/', views.Test1View.as_view()),
+    path('test12', views.Test2View.as_view())
 ]
