@@ -82,7 +82,7 @@ class ProjectView(GenericViewSet):
         """
         try:
             project = models.Project.objects.get(id=request.data['id'])
-
+            # project = models.Project.objects.
             project.delete()
             prepare.project_end(project)
 
